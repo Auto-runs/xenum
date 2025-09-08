@@ -9,3 +9,4 @@ tqdm==4.67.1
 urllib3==1.26.20
 python-Wappalyzer
 setuptools
+tabulate
