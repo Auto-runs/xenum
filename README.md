@@ -88,6 +88,7 @@ pip install -r requirements.txt
 python main.py
 ```
 ## flow example
+```bash
 __  _______ _   _ _   _ __  __ 
 \ \/ / ____| \ | | | | |  \/  |
  \  /|  _| |  \| | | | | |\/| |
@@ -110,7 +111,7 @@ Choose the module you want to run:
 [1/20] http://web.archive.org/.../login.php -> Alive
 [2/20] http://web.archive.org/.../admin/ -> Dead
 ...
-
+```
 ## 📦 Output
 
 Hasil tersimpan otomatis ke folder results/ dalam format:
