@@ -63,7 +63,7 @@
 
 ---
 
-## ⚙️ Installation
+## Installation
 ```bash
 git clone https://github.com/Auto-runs/xenum.git
 ```
@@ -73,14 +73,14 @@ cd xenum
 ```bash
 python -m venv venv
 ```
-# Setup virtual environment
+## Setup virtual environment
 ```bash
 source venv/bin/activate   # Linux / Mac
 ```
 ```bash
 venv\Scripts\activate      # Windows
 ```
-# Install dependencies
+## Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -112,7 +112,7 @@ Choose the module you want to run:
 [2/20] http://web.archive.org/.../admin/ -> Dead
 ...
 ```
-## 📦 Output
+##  Output
 
 Hasil tersimpan otomatis ke folder results/ dalam format:
 
