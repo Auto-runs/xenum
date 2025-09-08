@@ -1,8 +1,0 @@
-{
-    "Module": "CVE Lookup",
-    "Target": "detik.com",
-    "Vendor": "apache",
-    "Product": "http_server",
-    "CVE_Results": [],
-    "Error": "Tidak ada CVE ditemukan."
-}

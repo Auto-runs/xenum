@@ -18,3 +18,5 @@ dist/
 .vscode/
 .idea/
 *.swp
+
+results/
