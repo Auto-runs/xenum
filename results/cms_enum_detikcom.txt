@@ -1,0 +1,8 @@
+{
+    "Module": "CMS Enumeration",
+    "Target": "detik.com",
+    "CMS": "Magento",
+    "Evidence": [
+        "Keyword: mage-"
+    ]
+}

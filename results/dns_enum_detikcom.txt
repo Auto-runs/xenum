@@ -1,0 +1,46 @@
+{
+    "Module": "DNS Enumeration",
+    "Target": "detik.com",
+    "Records": {
+        "A": [
+            "203.190.242.211"
+        ],
+        "AAAA": [
+            "Error: The DNS response does not contain an answer to the question: detik.com. IN AAAA"
+        ],
+        "MX": [
+            "30 ASPMX4.GOOGLEMAIL.com.",
+            "20 ALT1.ASPMX.L.GOOGLE.com.",
+            "30 ASPMX3.GOOGLEMAIL.com.",
+            "10 ASPMX.L.GOOGLE.com.",
+            "20 ALT2.ASPMX.L.GOOGLE.com.",
+            "30 ASPMX2.GOOGLEMAIL.com.",
+            "30 ASPMX5.GOOGLEMAIL.com."
+        ],
+        "NS": [
+            "ns2.detik.net.id.",
+            "ns.detik.net.id.",
+            "ns.detik.com.",
+            "ns1.detik.com.",
+            "ns1.detik.net.id.",
+            "ns2.detik.com."
+        ],
+        "TXT": [
+            "\"google-site-verification: toO-M7z8N9pd_-UGprreuoB14NgBpIj2JnRXT-5UT3g\"",
+            "\"ndw94prn3lpx1yxx2l4zpwdwtgkmq3ym\"",
+            "\"adobe-idp-site-verification=dc356b49491855c57347a075993d2c428096e98dc8f3c41d62dac7a41c2c087b\"",
+            "\"90ss34317hs9n5f9prw45ggcmn1w5mmt\"",
+            "\"lpm5klkcdwmcd5z2bpn9jchr4fqfskd2\"",
+            "\"amazonses:p53imiFLhMG+5TWsV1PSka93lnPln9hGsd8w7bPuPSs=\"",
+            "\"2zlvj3qlmgmy1tp35t8mryy5x96xt1fj\"",
+            "\"google-site-verification=-JbnbEStef0dyGFhKTpLegi5eVJzx7qU1MPTQkXRzc0\"",
+            "\"v=spf1 a ip4:203.190.240.0/22 ip4:203.190.244.0/23 ip4:103.49.220.0/23 ip6:2402:a000::/32 include:_spf.google.com include:amazonses.com ~all\""
+        ],
+        "CNAME": [
+            "Error: The DNS response does not contain an answer to the question: detik.com. IN CNAME"
+        ],
+        "SOA": [
+            "ns.detik.com. sysnet.detik.com. 2025082901 1200 300 1209600 3600"
+        ]
+    }
+}
