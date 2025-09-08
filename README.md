@@ -73,15 +73,15 @@ cd xenum
 ```bash
 python -m venv venv
 ```
-```bash
 # Setup virtual environment
+```bash
 source venv/bin/activate   # Linux / Mac
 ```
 ```bash
 venv\Scripts\activate      # Windows
 ```
-```bash
 # Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 ```bash
