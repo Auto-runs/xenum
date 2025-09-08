@@ -74,14 +74,64 @@ cd xenum
 python -m venv venv
 ```
 ```bash
+# Setup virtual environment
 source venv/bin/activate   # Linux / Mac
 ```
 ```bash
 venv\Scripts\activate      # Windows
 ```
 ```bash
+# Install dependencies
 pip install -r requirements.txt
 ```
 ```bash
 python main.py
+```
+## flow example
+__  _______ _   _ _   _ __  __ 
+\ \/ / ____| \ | | | | |  \/  |
+ \  /|  _| |  \| | | | | |\/| |
+ /  \| |___| |\  | |_| | |  | |
+/_/\_\_____|_| \_|\___/|_|  |_|
+
+XEnumeration Toolkit v0.1
+Author: Auto-runs
+
+[?] Enter target (domain/IP): example.com
+
+Choose the module you want to run:
+  1. Asn Enum
+  2. Wayback Enum
+  0. Keluar
+
+## preview 
+[*] Mengambil data Wayback untuk example.com
+[*] Mengecek apakah URL masih hidup di http://example.com
+[1/20] http://web.archive.org/.../login.php -> Alive
+[2/20] http://web.archive.org/.../admin/ -> Dead
+...
+
+## 📦 Output
+
+Hasil tersimpan otomatis ke folder results/ dalam format:
+
+JSON → structured result
+
+TXT → simple list dengan status Alive/Dead
+
+```bash
+{
+  "Module": "Wayback Machine Enumeration",
+  "Target": "example.com",
+  "Total": 5,
+  "Wayback_URLs": [
+    {
+      "url": "http://example.com/admin.php",
+      "status": "200",
+      "alive": true,
+      "real_url": "http://example.com/admin.php",
+      "keywords": ["admin"]
+    }
+  ]
+}
 ```
