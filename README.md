@@ -65,11 +65,13 @@
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/Auto-runs/XENUM.git
-cd XENUM
+git clone https://github.com/Auto-runs/xenum.git
+cd xenum
 
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
+
+python main.py
